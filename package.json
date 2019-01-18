@@ -3,6 +3,10 @@
   "description": "Example Cardscript JSON files, to help with testing and documentation. Includes loader utility.",
   "version": "0.0.6",
   "author": "Tim Needham",
+  "keywords": [
+    "tymly",
+    "cardscript"
+  ],
   "main": "./lib/index.js",
   "devDependencies": {
     "chai": "4.1.2",
