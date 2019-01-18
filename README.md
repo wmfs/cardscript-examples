@@ -1,5 +1,7 @@
 # cardscript-examples
 
+[![Build Status](https://travis-ci.com/wmfs/cardscript-examples.svg?branch=master)](https://travis-ci.com/wmfs/cardscript-examples)
+
 > Example Cardscript JSON files, to help with testing and documentation. Includes loader utility.
 
 * Note: files
