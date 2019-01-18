@@ -12,7 +12,7 @@ $ npm install cardscript-schema --save
 ## <a name="usage"></a>Usage
 
 ```javascript
-const exampleLoader = require('cardscript-examples')
+const exampleLoader = require('@wmfs/cardscript-examples')
 
 // Loads an example from the /lib/fixtures dir.
 // Param is name of JSON file, without .json
