@@ -1211,6 +1211,16 @@
           }
         ]
       }
+    },
+    {
+      "type": "Action.PushCard",
+      "title": "Action.PushCard",
+      "stateMachineName": "pizza_amendOrder_1_0"
+    },
+    {
+      "type": "Action.ReplaceCard",
+      "title": "Action.ReplaceCard",
+      "stateMachineName": "pizza_amendOrder_1_0"
     }
   ]
 }
