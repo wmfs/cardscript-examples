@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/wmfs/cardscript-examples/compare/v1.0.0...v1.1.0) (2019-01-24)
+
+
+### ✨ Features
+
+* added new actions to kitchen sink example ([834c130](https://github.com/wmfs/cardscript-examples/commit/834c130))
+* Ignore package-lock.json. ([7a437c4](https://github.com/wmfs/cardscript-examples/commit/7a437c4))
+
+
+### 📚 Documentation
+
+* update readme with badges ([fe88011](https://github.com/wmfs/cardscript-examples/commit/fe88011))
+
 # 1.0.0 (2019-01-18)
 
 
