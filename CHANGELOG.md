@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/wmfs/cardscript-examples/compare/v1.1.0...v1.2.0) (2019-02-12)
+
+
+### ✨ Features
+
+* added some validation to complex ([d5a9da4](https://github.com/wmfs/cardscript-examples/commit/d5a9da4))
+
 # [1.1.0](https://github.com/wmfs/cardscript-examples/compare/v1.0.0...v1.1.0) (2019-01-24)
 
 
