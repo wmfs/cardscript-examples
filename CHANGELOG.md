@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/wmfs/cardscript-examples/compare/v1.2.0...v1.3.0) (2019-02-25)
+
+
+### ✨ Features
+
+* update input.apilookup ([b130af0](https://github.com/wmfs/cardscript-examples/commit/b130af0))
+
+
+### 📦 Code Refactoring
+
+* WIP adjusted cardscript table to allow opening modal ([da1c35c](https://github.com/wmfs/cardscript-examples/commit/da1c35c))
+
 # [1.2.0](https://github.com/wmfs/cardscript-examples/compare/v1.1.0...v1.2.0) (2019-02-12)
 
 
