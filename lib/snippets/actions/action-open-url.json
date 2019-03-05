@@ -2,6 +2,13 @@
   "type": "AdaptiveCard",
   "body": [
   ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Action.OpenUrl",
+      "url": "https://github.com/wmfs/cardscript"
+    }
+  ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.0"
 }

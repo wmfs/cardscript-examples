@@ -1,6 +1,13 @@
 {
   "type": "AdaptiveCard",
   "body": [
+    {
+      "id": "inputSignature",
+      "type": "Input.Signature",
+      "agreement": "I agree that...",
+      "saveText": "Send",
+      "guidance": "Please enter your signature below..."
+    }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.0"

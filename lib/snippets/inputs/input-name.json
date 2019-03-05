@@ -1,6 +1,12 @@
 {
   "type": "AdaptiveCard",
   "body": [
+    {
+      "id": "name",
+      "type": "Input.Name",
+      "placeholder": "Input.Name",
+      "spacing": "medium"
+    }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.0"

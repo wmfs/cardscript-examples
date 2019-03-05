@@ -1,6 +1,21 @@
 {
   "type": "AdaptiveCard",
   "body": [
+    {
+      "type": "ImageSet",
+      "images": [
+        {
+          "type": "Image",
+          "url": "https://tymly.io/wp-content/uploads/2017/11/logo-tymly-main-colour.png",
+          "size": "medium"
+        },
+        {
+          "type": "Image",
+          "url": "https://tymly.io/wp-content/uploads/2017/11/logo-tymly-main-colour.png",
+          "size": "medium"
+        }
+      ]
+    }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.0"

@@ -1,6 +1,39 @@
 {
   "type": "AdaptiveCard",
   "body": [
+    {
+      "id": "inputApiLookup",
+      "type": "Input.ApiLookup",
+      "selectionType": "none",
+      "endpoint": {
+        "name": "tymly_search_1_0"
+      },
+      "parametersCard": {
+        "type": "AdaptiveCard",
+        "version": "1.0",
+        "body": [
+          {
+            "id": "searchQuery",
+            "type": "Input.Text"
+          },
+          {
+            "id": "sortBy",
+            "type": "Input.ChoiceSet",
+            "value": "MOST_RECENT",
+            "choices": [
+              {
+                "value": "MOST_RECENT",
+                "title": "Most recent"
+              },
+              {
+                "value": "LEAST_RECENT",
+                "title": "Least recent"
+              }
+            ]
+          }
+        ]
+      }
+    }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.0"

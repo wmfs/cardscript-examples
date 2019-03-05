@@ -1,6 +1,24 @@
 {
   "type": "AdaptiveCard",
   "body": [
+    {
+      "type": "Container",
+      "id": "inputFileUpload",
+      "title": "Input.FileUpload",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Input.FileUpload",
+          "size": "large",
+          "spacing": "large",
+          "separator": true
+        },
+        {
+          "type": "Input.FileUpload",
+          "spacing": "medium"
+        }
+      ]
+    }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.0"

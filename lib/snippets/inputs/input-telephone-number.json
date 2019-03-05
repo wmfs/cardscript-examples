@@ -1,6 +1,12 @@
 {
   "type": "AdaptiveCard",
   "body": [
+    {
+      "id": "inputTelephoneNumber",
+      "type": "Input.TelephoneNumber",
+      "placeholder": "Input.TelephoneNumber",
+      "spacing": "medium"
+    }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.0"

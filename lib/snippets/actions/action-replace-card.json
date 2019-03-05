@@ -2,6 +2,13 @@
   "type": "AdaptiveCard",
   "body": [
   ],
+  "actions": [
+    {
+      "type": "Action.ReplaceCard",
+      "title": "Action.ReplaceCard",
+      "stateMachineName": "pizza_amendOrder_1_0"
+    }
+  ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.0"
 }
