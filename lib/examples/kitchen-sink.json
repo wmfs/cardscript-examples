@@ -857,6 +857,14 @@
           "spacing": "medium"
         },
         {
+          "id": "textMultiline",
+          "type": "Input.Text",
+          "placeholder": "Input.Text",
+          "spacing": "medium",
+          "isMultiline": true,
+          "value": "isMultiline: true"
+        },
+        {
           "id": "textEditor",
           "type": "Input.Text",
           "placeholder": "Input.Text",
