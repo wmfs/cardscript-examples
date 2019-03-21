@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/wmfs/cardscript-examples/compare/v1.3.0...v1.4.0) (2019-03-21)
+
+
+### ✨ Features
+
+* added Input.Text with isMultiline to kitchen sink example ([910129d](https://github.com/wmfs/cardscript-examples/commit/910129d))
+
+
+### ♻️ Chores
+
+* Add snippet files ([5117cc3](https://github.com/wmfs/cardscript-examples/commit/5117cc3))
+* Update snippets ([3a262ad](https://github.com/wmfs/cardscript-examples/commit/3a262ad))
+
 # [1.3.0](https://github.com/wmfs/cardscript-examples/compare/v1.2.0...v1.3.0) (2019-02-25)
 
 
