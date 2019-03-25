@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/wmfs/cardscript-examples/compare/v1.5.0...v1.6.0) (2019-03-25)
+
+
+### ✨ Features
+
+* Make use of new Input.Name type. ([93aae80](https://github.com/wmfs/cardscript-examples/commit/93aae80))
+
 # [1.5.0](https://github.com/wmfs/cardscript-examples/compare/v1.4.0...v1.5.0) (2019-03-25)
 
 
