@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/wmfs/cardscript-examples/compare/v1.6.0...v1.7.0) (2019-05-23)
+
+
+### ✨ Features
+
+* add id to Tabs ([14ae4e0](https://github.com/wmfs/cardscript-examples/commit/14ae4e0))
+
 # [1.6.0](https://github.com/wmfs/cardscript-examples/compare/v1.5.0...v1.6.0) (2019-03-25)
 
 
