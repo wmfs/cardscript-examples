@@ -1063,6 +1063,7 @@
           "separator": true
         },
         {
+          "id": "tabSet",
           "type": "TabSet",
           "spacing": "large",
           "tabs": [
