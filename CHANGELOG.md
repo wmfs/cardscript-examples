@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/wmfs/cardscript-examples/compare/v1.7.0...v1.8.0) (2019-06-28)
+
+
+### ✨ Features
+
+* add attributes to Input.DateTime ([74b254d](https://github.com/wmfs/cardscript-examples/commit/74b254d))
+
 # [1.7.0](https://github.com/wmfs/cardscript-examples/compare/v1.6.0...v1.7.0) (2019-05-23)
 
 
