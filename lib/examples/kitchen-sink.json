@@ -653,10 +653,23 @@
           "separator": true
         },
         {
-          "id": "date",
+          "id": "dateTime",
           "type": "Input.DateTime",
           "placeholder": "Input.DateTime",
           "spacing": "medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "With seconds",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
+          "id": "dateTimeSeconds",
+          "type": "Input.DateTime",
+          "placeholder": "Input.DateTime with seconds",
+          "spacing": "medium",
+          "withSeconds": true
         }
       ]
     },
