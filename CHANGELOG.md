@@ -1,3 +1,26 @@
+# [1.9.0](https://github.com/wmfs/cardscript-examples/compare/v1.8.0...v1.9.0) (2019-07-16)
+
+
+### ✨ Features
+
+* update kitchen sink with action set dropdown style ([1ce113f](https://github.com/wmfs/cardscript-examples/commit/1ce113f))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([de6d037](https://github.com/wmfs/cardscript-examples/commit/de6d037))
+* **deps-dev:** update mocha requirement from 5.2.0 to 6.1.3 ([2c0afae](https://github.com/wmfs/cardscript-examples/commit/2c0afae))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge to readme ([11b5f3a](https://github.com/wmfs/cardscript-examples/commit/11b5f3a))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([7c9b3c6](https://github.com/wmfs/cardscript-examples/commit/7c9b3c6))
+
 # [1.8.0](https://github.com/wmfs/cardscript-examples/compare/v1.7.0...v1.8.0) (2019-06-28)
 
 
