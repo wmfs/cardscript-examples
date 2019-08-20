@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/wmfs/cardscript-examples/compare/v1.10.0...v1.11.0) (2019-08-20)
+
+
+### ✨ Features
+
+* use cardscript actions for card lists rather than editable attribute ([fc1d9a3](https://github.com/wmfs/cardscript-examples/commit/fc1d9a3))
+
 # [1.10.0](https://github.com/wmfs/cardscript-examples/compare/v1.9.0...v1.10.0) (2019-08-20)
 
 
