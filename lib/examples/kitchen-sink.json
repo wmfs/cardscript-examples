@@ -93,7 +93,6 @@
         {
           "id": "cardList",
           "type": "CardList",
-          "editable": true,
           "instanceTitleTemplate": "You thought: '{{item.opinion}}'.",
           "addButtonLabel": "Click me!",
           "card": {
@@ -108,6 +107,16 @@
                 "type": "Input.Text",
                 "spacing": "large",
                 "value": "Amazing!"
+              }
+            ],
+            "actions": [
+              {
+                "type": "Action.Submit",
+                "title": "Save"
+              },
+              {
+                "type": "Action.Cancel",
+                "title": "Close"
               }
             ]
           }
@@ -128,6 +137,12 @@
               {
                 "type": "TextBlock",
                 "text": "Hello there!"
+              }
+            ],
+            "actions": [
+              {
+                "type": "Action.Cancel",
+                "title": "Close"
               }
             ]
           }

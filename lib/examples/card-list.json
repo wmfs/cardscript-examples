@@ -28,7 +28,6 @@
         {
           "id": "starters",
           "type": "CardList",
-          "editable": true,
           "addButtonLabel": "Add a starter!",
           "instanceTitleTemplate": "{{ item.starterType | replaceWithTitle(lists.$simpleTitleMaps.starterType)}}",
           "instanceSubtitleTemplate": "You'll be wanting {{item.starterQuantity}} of these.",
@@ -62,6 +61,16 @@
                 "placeholder": "Quantity",
                 "value": 2
               }
+            ],
+            "actions": [
+              {
+                "type": "Action.Submit",
+                "title": "Save"
+              },
+              {
+                "type": "Action.Cancel",
+                "title": "Close"
+              }
             ]
           }
         }
@@ -86,7 +95,6 @@
         {
           "id": "pizzas",
           "type": "CardList",
-          "editable": true,
           "addButtonLabel": "Add a pizza!",
           "instanceTitleTemplate": "{{item.pizzaType | replaceWithTitle(lists.$simpleTitleMaps.pizzaType)}}",
           "instanceSubtitleTemplate": "You'll be wanting {{item.pizzaQuantity}} of these.",
@@ -127,7 +135,6 @@
               {
                 "id": "dips",
                 "type": "CardList",
-                "editable": true,
                 "addButtonLabel": "Add a dip!",
                 "instanceTitleTemplate": "{{item.dipType | replaceWithTitle(lists.$simpleTitleMaps.dipType)}}",
                 "instanceSubtitleTemplate": "You'll be wanting {{item.dipQuantity}} of these.",
@@ -161,8 +168,28 @@
                       "placeholder": "Quantity",
                       "value": 3
                     }
+                  ],
+                  "actions": [
+                    {
+                      "type": "Action.Submit",
+                      "title": "Save"
+                    },
+                    {
+                      "type": "Action.Cancel",
+                      "title": "Close"
+                    }
                   ]
                 }
+              }
+            ],
+            "actions": [
+              {
+                "type": "Action.Submit",
+                "title": "Save"
+              },
+              {
+                "type": "Action.Cancel",
+                "title": "Close"
               }
             ]
           }
