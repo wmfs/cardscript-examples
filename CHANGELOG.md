@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/wmfs/cardscript-examples/compare/v1.9.0...v1.10.0) (2019-08-20)
+
+
+### ✨ Features
+
+* added markdown to kitchen sink example ([622f11b](https://github.com/wmfs/cardscript-examples/commit/622f11b))
+
 # [1.9.0](https://github.com/wmfs/cardscript-examples/compare/v1.8.0...v1.9.0) (2019-07-16)
 
 
