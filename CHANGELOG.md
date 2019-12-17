@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/wmfs/cardscript-examples/compare/v1.13.0...v1.13.1) (2019-12-17)
+
+
+### 🐛 Bug Fixes
+
+* list component id in kitchen sink ([](https://github.com/wmfs/cardscript-examples/commit/4d55aaf))
+
 # [1.13.0](https://github.com/wmfs/cardscript-examples/compare/v1.12.0...v1.13.0) (2019-12-17)
 
 
