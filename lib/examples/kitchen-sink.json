@@ -1184,6 +1184,22 @@
           }
         },
         {
+          "id": "list",
+          "type": "List",
+          "listStyle": "list",
+          "arrayPath": "data.testData.table",
+          "templates": {
+            "label": "Name: {{item.name}}",
+            "sublabel": [
+              "multiline sublabels",
+              "Age: {{item.age}}",
+              "{{formatDate(new Date(), 'DD/MM/YY HH:mm:ss')}}"
+            ],
+            "badge": "With a badge",
+            "badgeColor": "attention"
+          }
+        },
+        {
           "type": "TextBlock",
           "text": "listStyle: list; selectionType: single",
           "size": "small",
