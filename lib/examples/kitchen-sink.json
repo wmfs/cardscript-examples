@@ -1158,7 +1158,7 @@
           "spacing": "medium"
         },
         {
-          "id": "list",
+          "id": "listSingleSelection",
           "type": "List",
           "listStyle": "list",
           "selectionType": "single",
@@ -1175,7 +1175,7 @@
           "spacing": "medium"
         },
         {
-          "id": "list",
+          "id": "listMultiSelection",
           "type": "List",
           "listStyle": "list",
           "selectionType": "multi",
