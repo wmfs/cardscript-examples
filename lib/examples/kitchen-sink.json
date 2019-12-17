@@ -9,6 +9,38 @@
   "body": [
     {
       "type": "Container",
+      "id": "adaptiveCard",
+      "title": "AdaptiveCard (Iterative)",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "AdaptiveCard (Iterative)",
+          "size": "large",
+          "spacing": "large",
+          "separator": true
+        },
+        {
+          "type": "AdaptiveCard",
+          "arrayPath": "data.testData.table",
+          "id": "adaptiveCards",
+          "body": [
+            {
+              "type": "TextBlock",
+              "text": "Idx: {{adaptiveCardsIdx}}"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Item: {{adaptiveCardsItem}}"
+            },
+            {
+              "type": "Separator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
       "id": "actionSet",
       "title": "ActionSet",
       "items": [
