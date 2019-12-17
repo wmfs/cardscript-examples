@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/wmfs/cardscript-examples/compare/v1.14.0...v1.15.0) (2019-12-17)
+
+
+### ✨ Features
+
+* kitchen sink example to have List examples with multiline sublabel and badge ([](https://github.com/wmfs/cardscript-examples/commit/4f98055))
+
 # [1.14.0](https://github.com/wmfs/cardscript-examples/compare/v1.13.1...v1.14.0) (2019-12-17)
 
 
