@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/wmfs/cardscript-examples/compare/v1.13.1...v1.14.0) (2019-12-17)
+
+
+### ✨ Features
+
+* add iterate adaptive card to kitchen sink example ([](https://github.com/wmfs/cardscript-examples/commit/690b58a))
+
 ## [1.13.1](https://github.com/wmfs/cardscript-examples/compare/v1.13.0...v1.13.1) (2019-12-17)
 
 
