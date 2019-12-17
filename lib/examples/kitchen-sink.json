@@ -1249,6 +1249,22 @@
             "sublabel": "Age: {{item.age}}",
             "stamp": "{{formatDate(new Date(), 'DD/MM/YY HH:mm:ss')}}"
           }
+        },
+        {
+          "id": "listCards",
+          "type": "List",
+          "listStyle": "card",
+          "arrayPath": "data.testData.table",
+          "templates": {
+            "label": "Name: {{item.name}}",
+            "sublabel": [
+              "multiline sublabels",
+              "Age: {{item.age}}",
+              "{{formatDate(new Date(), 'DD/MM/YY HH:mm:ss')}}"
+            ],
+            "badge": "With a badge",
+            "badgeColor": "attention"
+          }
         }
       ]
     },
