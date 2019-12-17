@@ -1,3 +1,15 @@
+# [1.12.0](https://github.com/wmfs/cardscript-examples/compare/v1.11.0...v1.12.0) (2019-12-17)
+
+
+### ✨ Features
+
+* additional examples to Kitchen Sink ([](https://github.com/wmfs/cardscript-examples/commit/4ed30cc))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dev dependancies ([](https://github.com/wmfs/cardscript-examples/commit/701cf56))
+
 # [1.11.0](https://github.com/wmfs/cardscript-examples/compare/v1.10.0...v1.11.0) (2019-08-20)
 
 
