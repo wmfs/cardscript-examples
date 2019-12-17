@@ -442,6 +442,12 @@
           "separator": true
         },
         {
+          "type": "TextBlock",
+          "text": "explicit fact content",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
           "type": "FactSet",
           "facts": [
             {
@@ -453,6 +459,16 @@
               "value": "WORLD"
             }
           ]
+        },
+        {
+          "type": "TextBlock",
+          "text": "facts: data.testData.facts",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
+          "type": "FactSet",
+          "facts": "data.testData.facts"
         }
       ]
     },
@@ -748,6 +764,33 @@
           "type": "Input.Date",
           "placeholder": "Input.Date",
           "spacing": "medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "clearable: true",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
+          "id": "date",
+          "type": "Input.Date",
+          "placeholder": "Input.Date",
+          "spacing": "medium",
+          "clearable": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "min: 2019/10/10; max: $TODAY",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
+          "id": "date",
+          "type": "Input.Date",
+          "placeholder": "Input.Date",
+          "spacing": "medium",
+          "min": "2019/10/10",
+          "max": "$TODAY"
         }
       ]
     },
@@ -895,6 +938,20 @@
           "type": "Input.Number",
           "placeholder": "Input.Number",
           "spacing": "medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "min: 0; max: 10",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
+          "id": "numberWithMinMax",
+          "type": "Input.Number",
+          "placeholder": "Input.Number",
+          "spacing": "medium",
+          "min": 0,
+          "max": 10
         }
       ]
     },
@@ -930,6 +987,12 @@
           "size": "large",
           "spacing": "large",
           "separator": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "min: -20; max: 20; step: 4; value: 3",
+          "size": "small",
+          "spacing": "medium"
         },
         {
           "id": "slider",
@@ -1061,6 +1124,88 @@
     },
     {
       "type": "Container",
+      "id": "listContainer",
+      "title": "List",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "List",
+          "size": "large",
+          "spacing": "large",
+          "separator": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "listStyle: list",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
+          "id": "list",
+          "type": "List",
+          "listStyle": "list",
+          "arrayPath": "data.testData.table",
+          "templates": {
+            "label": "Name: {{item.name}}",
+            "sublabel": "Age: {{item.age}}",
+            "stamp": "{{formatDate(new Date(), 'DD/MM/YY HH:mm:ss')}}"
+          }
+        },
+        {
+          "type": "TextBlock",
+          "text": "listStyle: list; selectionType: single",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
+          "id": "list",
+          "type": "List",
+          "listStyle": "list",
+          "selectionType": "single",
+          "rowKey": "name",
+          "arrayPath": "data.testData.table",
+          "templates": {
+            "label": "Name: {{item.name}}"
+          }
+        },
+        {
+          "type": "TextBlock",
+          "text": "listStyle: list; selectionType: multi",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
+          "id": "list",
+          "type": "List",
+          "listStyle": "list",
+          "selectionType": "multi",
+          "rowKey": "name",
+          "arrayPath": "data.testData.table",
+          "templates": {
+            "label": "Name: {{item.name}}"
+          }
+        },
+        {
+          "type": "TextBlock",
+          "text": "listStyle: card",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
+          "id": "listCards",
+          "type": "List",
+          "listStyle": "card",
+          "arrayPath": "data.testData.table",
+          "templates": {
+            "label": "Name: {{item.name}}",
+            "sublabel": "Age: {{item.age}}",
+            "stamp": "{{formatDate(new Date(), 'DD/MM/YY HH:mm:ss')}}"
+          }
+        }
+      ]
+    },
+    {
+      "type": "Container",
       "id": "map",
       "title": "Map",
       "items": [
@@ -1149,7 +1294,7 @@
     },
     {
       "type": "Container",
-      "id": "table",
+      "id": "tableContainer",
       "title": "Table",
       "items": [
         {
@@ -1162,15 +1307,54 @@
         {
           "id": "table",
           "type": "Table",
-          "title": "Opinions (Add some via CardList example above to see them appear in Table here)",
-          "arrayPath": "data.cardList",
+          "title": "People",
+          "arrayPath": "data.testData.table",
           "columns": [
             {
-              "title": "Opinion",
-              "field": "opinion"
+              "title": "Name",
+              "field": "name"
+            },
+            {
+              "title": "Age",
+              "field": "age"
             }
-          ],
-          "resultLimit": 5
+          ]
+        },
+        {
+          "id": "tableWithSingleSelection",
+          "type": "Table",
+          "title": "People (selectionType: single)",
+          "arrayPath": "data.testData.table",
+          "selectionType": "single",
+          "rowKey": "name",
+          "columns": [
+            {
+              "title": "Name",
+              "field": "name"
+            },
+            {
+              "title": "Age",
+              "field": "age"
+            }
+          ]
+        },
+        {
+          "id": "tableWithMultiSelection",
+          "type": "Table",
+          "title": "People (selectionType: multi)",
+          "arrayPath": "data.testData.table",
+          "selectionType": "multi",
+          "rowKey": "name",
+          "columns": [
+            {
+              "title": "Name",
+              "field": "name"
+            },
+            {
+              "title": "Age",
+              "field": "age"
+            }
+          ]
         }
       ]
     },
@@ -1340,7 +1524,7 @@
         {
           "id": "markdownTextBlock",
           "type": "TextBlock",
-          "text": "# Markdown\n\n> This is some markdown text\n## Heading\nSome text here...\n* one\n* two\n* three",
+          "text": "## Markdown\n\n> This is some markdown text\n## Heading\nSome text here...\n* one\n* two\n* three",
           "markdown": true
         }
       ]
