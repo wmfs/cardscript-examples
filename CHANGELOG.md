@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/wmfs/cardscript-examples/compare/v1.15.0...v1.16.0) (2019-12-17)
+
+
+### ✨ Features
+
+* List to have multi-line sublabels and badge for card style ([](https://github.com/wmfs/cardscript-examples/commit/9601e31))
+
 # [1.15.0](https://github.com/wmfs/cardscript-examples/compare/v1.14.0...v1.15.0) (2019-12-17)
 
 
