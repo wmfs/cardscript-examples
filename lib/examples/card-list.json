@@ -43,6 +43,7 @@
                 "id": "starterType",
                 "type": "Input.ChoiceSet",
                 "spacing": "medium",
+                "value": "WEDGES",
                 "choices": [
                   {
                     "value": "WEDGES",
@@ -110,6 +111,7 @@
                 "id": "pizzaType",
                 "type": "Input.ChoiceSet",
                 "spacing": "medium",
+                "value": "HAWAIIAN",
                 "choices": [
                   {
                     "value": "HAWAIIAN",
@@ -149,6 +151,7 @@
                     {
                       "id": "dipType",
                       "type": "Input.ChoiceSet",
+                      "value": "BBQ",
                       "spacing": "medium",
                       "choices": [
                         {
