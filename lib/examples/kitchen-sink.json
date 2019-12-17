@@ -1,6 +1,10 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "templateMeta": {
+    "title": "Kitchen Sink",
+    "name": "kitchen-sink"
+  },
   "version": "1.0",
   "body": [
     {
@@ -16,6 +20,12 @@
           "separator": true
         },
         {
+          "type": "TextBlock",
+          "text": "actionStyle: list (default)",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
           "type": "ActionSet",
           "spacing": "large",
           "actions": [
@@ -34,9 +44,16 @@
           ]
         },
         {
+          "type": "TextBlock",
+          "text": "actionStyle: dropdown",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
           "type": "ActionSet",
           "actionStyle": "dropdown",
-          "label": "actionStyle: dropdown",
+          "title": "Action Set",
+          "spacing": "padding",
           "actions": [
             {
               "type": "Action.OpenUrl",
@@ -51,6 +68,17 @@
               }
             }
           ]
+        },
+        {
+          "type": "TextBlock",
+          "text": "launchesPath: data.testData.actions; actionStyle: buttons",
+          "size": "small",
+          "spacing": "medium"
+        },
+        {
+          "type": "ActionSet",
+          "actionStyle": "buttons",
+          "launchesPath": "data.testData.actions"
         }
       ]
     },
@@ -201,6 +229,12 @@
           "color": "dark",
           "text": "dark",
           "spacing": "small"
+        },
+        {
+          "type": "Chip",
+          "icon": "person",
+          "text": "icon: person",
+          "spacing": "small"
         }
       ]
     },
@@ -219,6 +253,49 @@
         {
           "type": "Collapsible",
           "title": "Click me!",
+          "card": {
+            "type": "AdaptiveCard",
+            "body": [
+              {
+                "type": "TextBlock",
+                "text": "Hello!"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Collapsible",
+          "title": "Click me!",
+          "subtitle": "One line subtitle",
+          "card": {
+            "type": "AdaptiveCard",
+            "body": [
+              {
+                "type": "TextBlock",
+                "text": "Hello!"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Collapsible",
+          "title": "Click me!",
+          "subtitle": ["multiple", "line", "subtitle"],
+          "card": {
+            "type": "AdaptiveCard",
+            "body": [
+              {
+                "type": "TextBlock",
+                "text": "Hello!"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Collapsible",
+          "title": "Click me!",
+          "badge": "With a badge",
+          "badgeColor": "attention",
           "card": {
             "type": "AdaptiveCard",
             "body": [
@@ -1086,7 +1163,7 @@
           "id": "table",
           "type": "Table",
           "title": "Opinions (Add some via CardList example above to see them appear in Table here)",
-          "arrayPath": "cardList",
+          "arrayPath": "data.cardList",
           "columns": [
             {
               "title": "Opinion",
