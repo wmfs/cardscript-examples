@@ -1,3 +1,16 @@
+# [1.13.0](https://github.com/wmfs/cardscript-examples/compare/v1.12.0...v1.13.0) (2019-12-17)
+
+
+### ✨ Features
+
+* add default values to card list example ([](https://github.com/wmfs/cardscript-examples/commit/8b0a730))
+
+
+### 🐛 Bug Fixes
+
+* Additional examples in Kitchen Sink ([](https://github.com/wmfs/cardscript-examples/commit/e819253))
+* Table snippet array path ([](https://github.com/wmfs/cardscript-examples/commit/e3340b8))
+
 # [1.12.0](https://github.com/wmfs/cardscript-examples/compare/v1.11.0...v1.12.0) (2019-12-17)
 
 
