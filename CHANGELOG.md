@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/wmfs/cardscript-examples/compare/v1.17.0...v1.18.0) (2020-01-20)
+
+
+### ✨ Features
+
+* tree example with no selection type defined ([9730b4f](https://github.com/wmfs/cardscript-examples/commit/9730b4f93a343c84c05f9883e878ba4216dedcec))
+
 # [1.17.0](https://github.com/wmfs/cardscript-examples/compare/v1.16.0...v1.17.0) (2020-01-20)
 
 
