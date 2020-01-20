@@ -1592,6 +1592,102 @@
           "markdown": true
         }
       ]
+    },
+    {
+      "type": "Container",
+      "id": "tree",
+      "title": "Tree",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Tree",
+          "size": "large",
+          "spacing": "large",
+          "separator": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "selectionType: single"
+        },
+        {
+          "id": "treeSingle",
+          "type": "Tree",
+          "selectionType": "single",
+          "nodes": [
+            {
+              "label": "Vehicle",
+              "children": [
+                {
+                  "label": "Car",
+                  "value": "CAR"
+                },
+                {
+                  "label": "Train",
+                  "value": "TRAIN"
+                },
+                {
+                  "label": "Bus",
+                  "value": "BUS"
+                }
+              ]
+            },
+            {
+              "label": "Building",
+              "children": [
+                {
+                  "label": "House",
+                  "value": "HOUSE"
+                },
+                {
+                  "label": "Flat",
+                  "value": "FLAT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "text": "selectionType: multi"
+        },
+        {
+          "id": "treeMulti",
+          "type": "Tree",
+          "selectionType": "multi",
+          "nodes": [
+            {
+              "label": "Vehicle",
+              "children": [
+                {
+                  "label": "Car",
+                  "value": "CAR"
+                },
+                {
+                  "label": "Train",
+                  "value": "TRAIN"
+                },
+                {
+                  "label": "Bus",
+                  "value": "BUS"
+                }
+              ]
+            },
+            {
+              "label": "Building",
+              "children": [
+                {
+                  "label": "House",
+                  "value": "HOUSE"
+                },
+                {
+                  "label": "Flat",
+                  "value": "FLAT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "actions": [
