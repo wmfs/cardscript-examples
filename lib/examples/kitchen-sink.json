@@ -1606,6 +1606,37 @@
           "separator": true
         },
         {
+          "id": "treeSimple",
+          "type": "Tree",
+          "nodes": [
+            {
+              "label": "Vehicle",
+              "children": [
+                {
+                  "label": "Car"
+                },
+                {
+                  "label": "Train"
+                },
+                {
+                  "label": "Bus"
+                }
+              ]
+            },
+            {
+              "label": "Building",
+              "children": [
+                {
+                  "label": "House"
+                },
+                {
+                  "label": "Flat"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "type": "TextBlock",
           "text": "selectionType: single"
         },
