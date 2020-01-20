@@ -1,3 +1,17 @@
+# [1.17.0](https://github.com/wmfs/cardscript-examples/compare/v1.16.0...v1.17.0) (2020-01-20)
+
+
+### ✨ Features
+
+* example of Tree single and multi selection ([946184c](https://github.com/wmfs/cardscript-examples/commit/946184c62118939aa8629571a3ba9ba2db9e88e7))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([3c5c962](https://github.com/wmfs/cardscript-examples/commit/3c5c9620aa086d0f93948f3a4625c23c3a798c46))
+* **deps-dev:** bump mocha from 6.2.2 to 7.0.0 ([9920ec9](https://github.com/wmfs/cardscript-examples/commit/9920ec94042b99dea6366583ed0e1a58338d60e5))
+* **deps-dev:** bump packages ([bdebe49](https://github.com/wmfs/cardscript-examples/commit/bdebe496fbad83d71c130e8aafdc555bb695683f))
+
 # [1.16.0](https://github.com/wmfs/cardscript-examples/compare/v1.15.0...v1.16.0) (2019-12-17)
 
 
