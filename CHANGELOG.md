@@ -1,3 +1,50 @@
+# [1.19.0](https://github.com/wmfs/cardscript-examples/compare/v1.18.0...v1.19.0) (2020-05-19)
+
+
+### ✨ Features
+
+* add file upload examples to kitchen sink template ([c5fb910](https://github.com/wmfs/cardscript-examples/commit/c5fb910e96ee387a1594327a66a2145bf9632fbc))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.6 to 5.0.0 ([4311fa8](https://github.com/wmfs/cardscript-examples/commit/4311fa83f2ec72ef00134aaf2e561273bacc4b34))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 5.0.0 to 5.0.1 ([02b52b8](https://github.com/wmfs/cardscript-examples/commit/02b52b883242b74405abc36324a36bbd956027ce))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([15e7b5d](https://github.com/wmfs/cardscript-examples/commit/15e7b5d4ba20fe95660c4b9c376efaeb91a7d444))
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.2 ([0763593](https://github.com/wmfs/cardscript-examples/commit/076359366a0514accd27e035954c58105e89c684))
+* **deps-dev:** bump codecov from 3.6.2 to 3.6.3 ([bc0fba9](https://github.com/wmfs/cardscript-examples/commit/bc0fba959d61ce44477fc5dd5822be422c7dbd17))
+* **deps-dev:** bump codecov from 3.6.3 to 3.6.4 ([dcdea3a](https://github.com/wmfs/cardscript-examples/commit/dcdea3a01ed6a1ad6e3b6dffecc2b6adb5fe683f))
+* **deps-dev:** bump codecov from 3.6.4 to 3.6.5 ([ac18482](https://github.com/wmfs/cardscript-examples/commit/ac18482c0c38f786c556b0e12c8884d3dc6b664a))
+* **deps-dev:** bump codecov from 3.6.5 to 3.7.0 ([717ec72](https://github.com/wmfs/cardscript-examples/commit/717ec72562769a47e3b8571e4acb4d0247a2971e))
+* **deps-dev:** bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([db593cf](https://github.com/wmfs/cardscript-examples/commit/db593cfc696cfbf99f290572aff6df0c5f1e5eac))
+* **deps-dev:** bump cz-conventional-changelog from 3.0.2 to 3.1.0 ([4c64c9e](https://github.com/wmfs/cardscript-examples/commit/4c64c9ebcc3f1878370aa1983af75e535eb3f9a5))
+* **deps-dev:** bump cz-conventional-changelog from 3.1.0 to 3.2.0 ([0684519](https://github.com/wmfs/cardscript-examples/commit/0684519ab949113bcc502f20e1c52cd29d71e16d))
+* **deps-dev:** bump mocha from 7.0.0 to 7.0.1 ([740532c](https://github.com/wmfs/cardscript-examples/commit/740532c4cbaeac46a9673f069ff3b6d42b76826a))
+* **deps-dev:** bump mocha from 7.0.1 to 7.1.0 ([d04eb3c](https://github.com/wmfs/cardscript-examples/commit/d04eb3ccefeeada22fc4eca3d0816fe28d86917b))
+* **deps-dev:** bump mocha from 7.1.0 to 7.1.1 ([39f2912](https://github.com/wmfs/cardscript-examples/commit/39f291284bd148545f660b39c680a54c4aa90746))
+* **deps-dev:** bump mocha from 7.1.1 to 7.1.2 ([ab59aa9](https://github.com/wmfs/cardscript-examples/commit/ab59aa9544414b3432c35bd34fc9447bb612e19a))
+* **deps-dev:** bump nyc from 15.0.0 to 15.0.1 ([4631518](https://github.com/wmfs/cardscript-examples/commit/4631518c0f5668123be2b5cd8020c703c9071b15))
+* **deps-dev:** bump semantic-release from 15.14.0 to 17.0.2 ([a8f6e3f](https://github.com/wmfs/cardscript-examples/commit/a8f6e3fa270281335bed9f1516d33ecebc1919e1))
+* **deps-dev:** bump semantic-release from 17.0.2 to 17.0.3 ([b0b8d14](https://github.com/wmfs/cardscript-examples/commit/b0b8d141c74d5e6bdfc062c031eb71ac0b1e92a0))
+* **deps-dev:** bump semantic-release from 17.0.3 to 17.0.4 ([ebcc031](https://github.com/wmfs/cardscript-examples/commit/ebcc03126c61b295a7ce3afee547320c24228b6d))
+* **deps-dev:** bump semantic-release from 17.0.4 to 17.0.5 ([de083a6](https://github.com/wmfs/cardscript-examples/commit/de083a66976c3229df7fdff450da00d9fdfe967a))
+* **deps-dev:** bump semantic-release from 17.0.5 to 17.0.6 ([20dc61d](https://github.com/wmfs/cardscript-examples/commit/20dc61d9224c6c3a399cb47c8988ef871e11861f))
+* **deps-dev:** bump semantic-release from 17.0.6 to 17.0.7 ([b8532f7](https://github.com/wmfs/cardscript-examples/commit/b8532f7bd373a9f7641ec4ac5eda11b36a2118fb))
+* **deps-dev:** bump standard from 14.3.1 to 14.3.2 ([a1a0a60](https://github.com/wmfs/cardscript-examples/commit/a1a0a60a1ad94e61713ef72b42ca8c2b514c1bea))
+* **deps-dev:** bump standard from 14.3.2 to 14.3.3 ([83d6847](https://github.com/wmfs/cardscript-examples/commit/83d6847b54f8b5103804b4b999109c43f7e67545))
+* **deps-dev:** bump standard from 14.3.3 to 14.3.4 ([9eb3a74](https://github.com/wmfs/cardscript-examples/commit/9eb3a7410f6a5f0c55b8835c436356f6da6f937c))
+* **deps-dev:** update standard requirement from 12.0.1 to 14.3.1 ([182b52b](https://github.com/wmfs/cardscript-examples/commit/182b52bcbf970063aa2dfe4c2a7c546785b6d2ff))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([f6f19c4](https://github.com/wmfs/cardscript-examples/commit/f6f19c42524e650cdbeb10b494cf128ed26a4c32))
+
+
+### 💎 Styles
+
+* Do not access Object.prototype method 'hasOwnProperty' from target object ([b97d1d1](https://github.com/wmfs/cardscript-examples/commit/b97d1d14511301e3abc62a9527aa5a1f20755ed7))
+
 # [1.18.0](https://github.com/wmfs/cardscript-examples/compare/v1.17.0...v1.18.0) (2020-01-20)
 
 
