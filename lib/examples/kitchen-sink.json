@@ -892,8 +892,36 @@
           "separator": true
         },
         {
+          "title": "Simple",
           "type": "Input.FileUpload",
           "spacing": "medium"
+        },
+        {
+          "title": "Only accepts .csv files",
+          "type": "Input.FileUpload",
+          "spacing": "medium",
+          "accept": [ ".csv" ]
+        },
+        {
+          "title": "Without auto-upload",
+          "type": "Input.FileUpload",
+          "spacing": "medium",
+          "autoUpload": false
+        },
+        {
+          "title": "Pass through additional fields to pass through to the upload",
+          "type": "Input.FileUpload",
+          "spacing": "medium",
+          "additionalFields": {
+            "hello": "world",
+            "colours": [ "red", "blue", "yellow" ]
+          }
+        },
+        {
+          "title": "With multi-upload",
+          "type": "Input.FileUpload",
+          "spacing": "medium",
+          "isMultiUpload": true
         }
       ]
     },
