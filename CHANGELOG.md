@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/wmfs/cardscript-examples/compare/v1.21.0...v1.22.0) (2020-10-06)
+
+
+### ✨ Features
+
+* example for border and shadow props on container ([bd0189b](https://github.com/wmfs/cardscript-examples/commit/bd0189bd0354014cbfc8a6eb6975e7f872226381))
+
 # [1.21.0](https://github.com/wmfs/cardscript-examples/compare/v1.20.0...v1.21.0) (2020-10-06)
 
 
