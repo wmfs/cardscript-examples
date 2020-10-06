@@ -1117,7 +1117,8 @@
           "placeholder": "Input.Text",
           "spacing": "medium",
           "editor": true,
-          "value": "editor: true"
+          "value": "editor: true",
+          "tooltip": "This is a tooltip!"
         }
       ]
     },
