@@ -1,3 +1,36 @@
+# [1.20.0](https://github.com/wmfs/cardscript-examples/compare/v1.19.0...v1.20.0) (2020-10-06)
+
+
+### ✨ Features
+
+* add list items to show badges as array ([9188f3a](https://github.com/wmfs/cardscript-examples/commit/9188f3a0262ddd856448cf0e035add391dca658f))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump codecov from 3.7.0 to 3.7.1 ([fbabf4c](https://github.com/wmfs/cardscript-examples/commit/fbabf4ca5737c22fc8ec5b2220e8e274de13d118))
+* **deps-dev:** bump codecov from 3.7.1 to 3.7.2 ([6b1dd48](https://github.com/wmfs/cardscript-examples/commit/6b1dd481a2e8376363991f63d969eefa21d46e4f))
+* **deps-dev:** bump codecov from 3.7.2 to 3.8.0 ([076f8f5](https://github.com/wmfs/cardscript-examples/commit/076f8f5c4aa28f9af1f490d64cb086701a8b053f))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.0 to 3.2.1 ([b0c2c5f](https://github.com/wmfs/cardscript-examples/commit/b0c2c5fa2ded24c32dfb2342eb527976c9703883))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.1 to 3.3.0 ([56c8bf5](https://github.com/wmfs/cardscript-examples/commit/56c8bf5d012e3756a6dac0f36fafcfad30e4450d))
+* **deps-dev:** bump mocha from 7.1.2 to 7.2.0 ([4ea4c71](https://github.com/wmfs/cardscript-examples/commit/4ea4c71c43e4f2390549f99e36c462ae61f3a70b))
+* **deps-dev:** bump mocha from 7.2.0 to 8.0.1 ([b4a8ee0](https://github.com/wmfs/cardscript-examples/commit/b4a8ee05a4c894efa0e4c4e944073994597b9639))
+* **deps-dev:** bump mocha from 8.0.1 to 8.1.0 ([ecf7b22](https://github.com/wmfs/cardscript-examples/commit/ecf7b220a7f76126107bc505d30cbf80783fe29d))
+* **deps-dev:** bump mocha from 8.1.0 to 8.1.1 ([ebf90f0](https://github.com/wmfs/cardscript-examples/commit/ebf90f05e79db1801ba0fab18b1a445579f79d33))
+* **deps-dev:** bump mocha from 8.1.1 to 8.1.2 ([932e492](https://github.com/wmfs/cardscript-examples/commit/932e492094be38a154bfcd95da1281f68467c87a))
+* **deps-dev:** bump mocha from 8.1.2 to 8.1.3 ([f99a0d6](https://github.com/wmfs/cardscript-examples/commit/f99a0d621e3f71563c996de4ff70165d85e17a2d))
+* **deps-dev:** bump nyc from 15.0.1 to 15.1.0 ([96a2374](https://github.com/wmfs/cardscript-examples/commit/96a237402cbd5b47ca1d8dda09d694501a73ef84))
+* **deps-dev:** bump semantic-release from 17.0.7 to 17.0.8 ([0b685d4](https://github.com/wmfs/cardscript-examples/commit/0b685d406a6b8c24634339a006bc67b784a74218))
+* **deps-dev:** bump semantic-release from 17.0.8 to 17.1.0 ([b6cfe06](https://github.com/wmfs/cardscript-examples/commit/b6cfe065abe1ed43479ef98468419ffc6ccba996))
+* **deps-dev:** bump semantic-release from 17.1.0 to 17.1.1 ([b49e6cc](https://github.com/wmfs/cardscript-examples/commit/b49e6ccf7845301052b176ae6b4078fefde5b5e4))
+* **deps-dev:** bump semantic-release from 17.1.1 to 17.1.2 ([739b12d](https://github.com/wmfs/cardscript-examples/commit/739b12d8a6ed5e03949be4c6e296b021bde16eec))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([80344f3](https://github.com/wmfs/cardscript-examples/commit/80344f3c3a4d32515efb2e47f0b67592374103f9))
+* **circle:** use updated circle node image [skip ci] ([4f15179](https://github.com/wmfs/cardscript-examples/commit/4f1517941cbc8f3b9982d9e5f231f6bfe04baedd))
+
 # [1.19.0](https://github.com/wmfs/cardscript-examples/compare/v1.18.0...v1.19.0) (2020-05-19)
 
 
