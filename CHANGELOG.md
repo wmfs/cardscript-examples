@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/wmfs/cardscript-examples/compare/v1.20.0...v1.21.0) (2020-10-06)
+
+
+### ✨ Features
+
+* add tooltip example ([97c6994](https://github.com/wmfs/cardscript-examples/commit/97c6994976649ce2adcbdbf21164bfa065dd0c17))
+
 # [1.20.0](https://github.com/wmfs/cardscript-examples/compare/v1.19.0...v1.20.0) (2020-10-06)
 
 
