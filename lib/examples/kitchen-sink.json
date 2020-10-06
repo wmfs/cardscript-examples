@@ -1223,8 +1223,16 @@
               "Age: {{item.age}}",
               "{{formatDate(new Date(), 'DD/MM/YY HH:mm:ss')}}"
             ],
-            "badge": "With a badge",
-            "badgeColor": "attention"
+            "badge": [
+              {
+                "text": "With a badge",
+                "colour": "attention"
+              },
+              {
+                "text": "With a second badge",
+                "colour": "accent"
+              }
+            ]
           }
         },
         {
