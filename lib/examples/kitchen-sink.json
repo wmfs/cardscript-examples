@@ -458,6 +458,18 @@
               "text": "Dark!"
             }
           ]
+        },
+        {
+          "type": "Container",
+          "spacing": "small",
+          "bordered": true,
+          "shadowed": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Border and Shadow!"
+            }
+          ]
         }
       ]
     },
