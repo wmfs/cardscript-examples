@@ -1,3 +1,5 @@
+## [1.23.1](https://github.com/wmfs/cardscript-examples/compare/v1.23.0...v1.23.1) (2026-08-14)
+
 ## [1.23.0](https://github.com/wmfs/cardscript-examples/compare/v1.22.0...v1.23.0) (2025-10-21)
 
 ### Code Refactor :recycle:
